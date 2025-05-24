@@ -1,7 +1,14 @@
+# Code coverage
+out/
+*.gcda
+*.gcno
+*.info
+
 # Prerequisites
 *.d
 
 # Object files
+obj/
 *.o
 *.ko
 *.obj
@@ -50,3 +57,18 @@ modules.order
 Module.symvers
 Mkfile.old
 dkms.conf
+
+# Build files
+build/
+Doxyfile
+
+# Editor files
+*.swp
+
+# Tag files
+tags
+ctags
+
+# Temporary ignore files
+*.ignore
+
